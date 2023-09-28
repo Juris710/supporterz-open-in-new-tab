@@ -28,9 +28,19 @@ const config = {
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        'import'
     ],
     "rules": {
+        'import/order': [
+            'error',
+            {
+                alphabetize: {
+                    order: 'asc',
+                },
+                'newlines-between': 'always',
+            },
+        ]
     }
 }
 
