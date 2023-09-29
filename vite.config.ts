@@ -9,7 +9,8 @@ export default defineConfig({
       manifest: {
         manifest_version: 3,
         name: 'supporterz-open-in-new-tab',
-        version: '0.0.0',
+        version: process.env.npm_package_version!,
+        description: process.env.npm_package_description,
         content_scripts: [
           {
             matches: ['https://talent.supporterz.jp/*'],
