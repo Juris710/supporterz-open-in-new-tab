@@ -1,7 +1,7 @@
 {
   "name": "supporterz-open-in-new-tab",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "⚠️ この拡張機能はサポーターズ公式のものではありません。⚠️ サポーターズのWebサイトで「新しいタブで開く」を有効化",
   "type": "module",
   "scripts": {
